@@ -1,0 +1,76 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.app {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 400px; /* Wider container */
+}
+
+button {
+  padding: 15px 30px; /* Larger button */
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 8px; /* Rounded corners */
+  font-size: 18px; /* Larger text */
+  font-weight: bold; /* Bold text */
+  cursor: pointer;
+  margin-bottom: 20px;
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.error {
+  color: #ff0000;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.post {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.video, .image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px 8px 0 0; /* Rounded corners for media */
+}
+
+.post-details {
+  padding: 15px;
+}
+
+.post-details p {
+  margin: 0;
+  font-size: 16px; /* Larger caption text */
+  color: #333;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  font-size: 14px; /* Larger stats text */
+  color: #666;
+}   

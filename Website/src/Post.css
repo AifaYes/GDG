@@ -1,0 +1,31 @@
+.post {
+    width: 300px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .video {
+    width: 100%;
+    height: auto;
+  }
+  
+  .post-details {
+    padding: 10px;
+  }
+  
+  .post-details p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  .stats {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-size: 12px;
+    color: #666;
+  }
