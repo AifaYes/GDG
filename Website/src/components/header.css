@@ -1,0 +1,21 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .logo {
+    width: 150px; /* Bigger logo */
+    height: auto;
+    margin-bottom: 10px; /* Space between logo and title */
+    border-radius: 18px; 
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 36px; /* Larger title */
+    font-weight: bold; /* Bold text */
+    color: #000;
+  }
